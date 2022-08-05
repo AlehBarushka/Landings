@@ -18,6 +18,10 @@ p {
   padding: 0;
 }
 
+form {
+  margin: 0;
+}
+
 h1 {
   visibility: hidden;
 }
@@ -94,6 +98,7 @@ a {
 .first-screen {
   display: flex;
   margin-top: 15px;
+  position: relative;
 }
 
 .first-screen__block-left {
@@ -116,6 +121,7 @@ a {
 }
 
 .first-screen__description {
+  margin-top: 46px;
   font-weight: 400;
   font-size: 30px;
   line-height: 45px;
@@ -181,4 +187,74 @@ a {
   height: 39px;
   top: 80px;
   right: -10px;
+}
+
+.track {
+  position: absolute;
+  z-index: 1;
+  bottom: -125px;
+  left: 50%;
+  transform: translateX(-50%);
+  max-width: 1489px;
+  width: 100%;
+  padding: 42px 72px 70px;
+  background: #ffffff;
+  box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
+
+.track-text {
+  margin-bottom: 30px;
+  max-width: 410px;
+  color: #172f53;
+}
+
+.track__title {
+  font-weight: 600;
+  font-size: 35px;
+  line-height: 52px;
+}
+
+.track__description {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.track__wrapper {
+  display: flex;
+}
+
+.track__input {
+  max-width: 913px;
+  width: 100%;
+  height: 100px;
+  margin-right: 95px;
+  padding: 31px 40px;
+  background: #efefef;
+  border-radius: 10px;
+  outline: none;
+  border: none;
+
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+}
+
+.track__input::placeholder {
+  color: #9f9f9f;
+}
+
+.track__btn {
+  width: 337px;
+  height: 100px;
+  padding: 31px 88px;
+  background: #21d8e3;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+  cursor: pointer;
+  border: none;
 }
