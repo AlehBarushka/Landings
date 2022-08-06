@@ -11,7 +11,9 @@ body {
 }
 
 ul,
+h1,
 h2,
+h3,
 p {
   margin: 0;
   list-style: none;
@@ -131,7 +133,7 @@ a {
 .block-decor {
   width: 863px;
   height: 335px;
-  background: rgba(253, 62, 152, 0.2);
+  background-color: rgba(253, 62, 152, 0.2);
   position: absolute;
   bottom: -35px;
   right: -333px;
@@ -192,13 +194,13 @@ a {
 .track {
   position: absolute;
   z-index: 1;
-  bottom: -125px;
+  bottom: -320px;
   left: 50%;
   transform: translateX(-50%);
   max-width: 1489px;
   width: 100%;
   padding: 42px 72px 70px;
-  background: #ffffff;
+  background-color: #ffffff;
   box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
 }
@@ -231,7 +233,7 @@ a {
   height: 100px;
   margin-right: 95px;
   padding: 31px 40px;
-  background: #efefef;
+  background-color: #efefef;
   border-radius: 10px;
   outline: none;
   border: none;
@@ -249,7 +251,7 @@ a {
   width: 337px;
   height: 100px;
   padding: 31px 88px;
-  background: #21d8e3;
+  background-color: #21d8e3;
   border-radius: 10px;
   font-weight: 700;
   font-size: 25px;
@@ -257,4 +259,90 @@ a {
   color: #ffffff;
   cursor: pointer;
   border: none;
+}
+
+.offer {
+  padding-top: 350px;
+}
+
+.offer__text {
+  max-width: 195px;
+  margin: 0 auto 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.offer__title {
+  max-width: 852px;
+  margin: 0 auto 94px;
+  font-weight: 700;
+  font-size: 52px;
+  line-height: 78px;
+  text-align: center;
+  color: #172f53;
+}
+
+.offer__cards {
+  display: flex;
+  max-width: 1595px;
+  margin: 0 auto;
+  gap: 65px;
+  justify-content: center;
+}
+
+.offer__card {
+  width: 350px;
+  height: 417px;
+  padding: 30px 0 0 30px;
+  background-color: #f6f8ff;
+  border-radius: 20px;
+}
+
+.offer__card:hover {
+  background-color: #5f5ffe;
+  box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+}
+
+.offer__card:hover > .offer__card-title,
+.offer__card:hover > .offer__card-description > span {
+  color: #ffffff;
+}
+
+.offer__card:hover > .offer__card-description {
+  color: #dbe1ff;
+}
+
+.offer__card-title {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 48px;
+  color: #172f53;
+}
+
+.offer__card-description {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #a9a9a9;
+}
+
+.offer__card-description > span {
+  font-weight: 700;
+  color: #172f53;
+}
+
+.offer__card-wrapper {
+  margin: 34px 0 39px;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  box-shadow: 18px 18px 50px rgba(0, 0, 0, 0.05);
+  border-radius: 75px;
 }
