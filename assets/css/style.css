@@ -448,6 +448,10 @@ a {
   font-weight: 500;
 }
 
+.partnership {
+  margin-bottom: 185px;
+}
+
 .partnership__description {
   margin-bottom: 10px;
   font-weight: 500;
@@ -476,4 +480,46 @@ a {
   background: #ffffff;
   box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
   border-radius: 20px;
+}
+
+.footer {
+  position: relative;
+  background-color: #172f53;
+  min-height: 815px;
+  padding: 95px 150px;
+}
+
+.footer > nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.footer__decor {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer__list {
+  max-width: 370px;
+  margin-bottom: 54px;
+  font-weight: 700;
+  font-size: 27px;
+  line-height: 40px;
+  color: #ffffff;
+}
+
+.footer__item,
+.footer__item > a {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 38px;
+  color: #ffffff;
+}
+
+.footer__item:first-child {
+  margin-top: 54px;
 }
