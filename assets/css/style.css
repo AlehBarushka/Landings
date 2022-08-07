@@ -356,6 +356,7 @@ a {
   margin: 240px auto 0;
   display: flex;
   justify-content: space-between;
+  margin-bottom: 178px;
 }
 
 .discount__left-title {
@@ -445,4 +446,34 @@ a {
 
 .discount__right-precent > span {
   font-weight: 500;
+}
+
+.partnership__description {
+  margin-bottom: 10px;
+  font-weight: 500;
+  font-size: 30px;
+  line-height: 45px;
+  text-align: center;
+  color: #a9a9a9;
+}
+
+.partnership__title {
+  max-width: 700px;
+  margin: 0 auto 94px;
+  font-size: 52px;
+  line-height: 78px;
+  text-align: center;
+  color: #172f53;
+}
+
+.partnership__wrapper {
+  max-width: 1490px;
+  margin: 0 auto;
+  padding: 105px 96px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #ffffff;
+  box-shadow: 8px 8px 100px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
 }
