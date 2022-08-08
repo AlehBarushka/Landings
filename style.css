@@ -1,0 +1,74 @@
+* {
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgba(192, 201, 201, 0.377);
+}
+
+a,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: inherit;
+}
+
+.header {
+  max-width: 80%;
+  padding: 20px 30px;
+  margin: 0 auto;
+  background-color: rgba(255, 228, 196, 0.39);
+  border-radius: 10px;
+
+  box-shadow: 0px 5px 18px -5px rgba(34, 60, 80, 0.6);
+}
+
+.header > h1 {
+  color: rgba(12, 70, 136, 0.61);
+  font-size: 50px;
+  text-align: center;
+}
+
+.header > p {
+  margin-top: 10px;
+  color: rgba(12, 70, 136, 0.61);
+  font-size: 30px;
+  text-align: center;
+}
+
+.landings {
+  margin-top: 30px;
+  text-align: center;
+}
+
+.landings__wrapper {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+.landings__list {
+  color: rgba(12, 70, 136, 0.61);
+  font-size: 25px;
+  font-weight: 500;
+  list-style-type: none;
+}
+
+.landings__item {
+  color: rgba(12, 70, 136, 0.61);
+  font-size: 15px;
+  font-weight: 400;
+  margin-top: 5px;
+  text-decoration: dashed;
+}
+
+.landings__item > a:hover {
+  color: rgba(7, 67, 136, 0.8);
+}
+
+.landings__item > span {
+  margin-left: 5px;
+  font-weight: 600;
+}
