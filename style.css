@@ -51,21 +51,22 @@ a:active {
 
 .landings__list {
   color: rgba(12, 70, 136, 0.61);
-  font-size: 25px;
+  font-size: 30px;
   font-weight: 500;
   list-style-type: none;
 }
 
 .landings__item {
   color: rgba(12, 70, 136, 0.61);
-  font-size: 15px;
+  font-weight: bold;
+  font-size: 20px;
   font-weight: 400;
   margin-top: 5px;
   text-decoration: dashed;
 }
 
 .landings__item > a:hover {
-  color: rgba(7, 67, 136, 0.8);
+  color: rgba(61, 136, 221, 0.8);
 }
 
 .landings__item > span {
