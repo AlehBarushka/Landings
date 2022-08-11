@@ -314,3 +314,77 @@ body {
   justify-content: flex-end;
   padding-right: 26px;
 }
+
+/* Customers */
+.customers {
+  padding: 100px 0 133px;
+}
+
+.customers__row {
+  display: flex;
+  column-gap: 68px;
+}
+
+.customers__img {
+  max-width: 478px;
+  border-radius: 60px;
+}
+
+.customers__img img {
+  border-radius: 60px;
+}
+
+.customers__content {
+  max-width: 565px;
+}
+
+.customers__title {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 68px;
+  color: #0f1f1c;
+  margin-bottom: 35px;
+}
+
+/* Review */
+.review {
+  max-width: 490px;
+}
+
+.review__client {
+  margin-bottom: 60px;
+  display: flex;
+  column-gap: 33px;
+  align-items: center;
+}
+
+.review__client-avatar {
+  width: 134px;
+  height: 134px;
+  border-radius: 50%;
+  background-color: #ff794e;
+  overflow: hidden;
+}
+
+.review__client-description-name {
+  font-weight: 500;
+  font-size: 33px;
+  line-height: 50px;
+  color: #0f1f1c;
+  margin-bottom: 10px;
+}
+
+.review__client-description-country {
+  font-weight: 400;
+  font-size: 25px;
+  line-height: 38px;
+  color: var(--secondary);
+}
+
+.review__text {
+  margin-bottom: 30px;
+  font-weight: 500;
+  font-size: 22px;
+  line-height: 33px;
+  color: var(--secondary);
+}
