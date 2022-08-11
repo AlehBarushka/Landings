@@ -5,6 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css"
+      integrity="sha512-tS3S5qG0BlhnQROyJXvNjeEM4UpMXHrQfTGmbQ1gKmelCxlSEBUaxhRBj/EFTzpbP4RVSrpEikbmdJobCvhE3g=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"
+      integrity="sha512-sMXtMNL1zRzolHYKEujM2AqCLUR9F2C4/05cdbxjjLSRvMQIciEPCQZo++nk7go3BtSuK9kfa/s+a4f4i5pLkw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <title>GoTrip</title>
   </head>
   <body>
@@ -23,13 +37,13 @@
             </ul>
             <ul class="nav__auth">
               <li><a href="#">Sign up</a></li>
-              <li><a href="#" class="btn">Login</a></li>
+              <li><a href="#" class="nav__btn">Login</a></li>
             </ul>
           </nav>
         </div>
         <div class="header__row">
           <div class="header__content">
-            <div class="header__badge">exsplore the world</div>
+            <div class="header__badge">explore the world</div>
             <h1 class="header__title">Explore The Natural Beauty Of Halmahera With Us</h1>
             <div class="header__text">
               <p>explore the beauty of god's earth in a beautiful forest and have fun</p>
@@ -42,5 +56,63 @@
         </div>
       </div>
     </header>
+    <main>
+      <section class="destinations">
+        <div class="container-right">
+          <div class="destinations__row">
+            <div class="destinations__content">
+              <h2 class="destinations__title">
+                <span>Choice Of</span>
+                Destinations
+              </h2>
+              <div class="destinations__text">
+                <p>explore the beauty of god's earth in a beautiful forest and have fun</p>
+              </div>
+              <a href="#" class="btn">Explorer Now</a>
+            </div>
+            <div class="destinations__slider">
+              <div class="slider">
+                <div class="owl-carousel">
+                  <img
+                    class="slider__item"
+                    src="./assets/img/slider-image-1.jpg"
+                    alt="Slider item"
+                  />
+                  <img
+                    class="slider__item"
+                    src="./assets/img/slider-image-2.jpg"
+                    alt="Slider item"
+                  />
+                  <img
+                    class="slider__item"
+                    src="./assets/img/slider-image-3.jpg"
+                    alt="Slider item"
+                  />
+                </div>
+                <button class="slider__btn slider__btn--prev">
+                  <img src="./assets/img/slider-arrow-left.svg" alt="Arrow left" />
+                </button>
+                <button class="slider__btn slider__btn--next">
+                  <img src="./assets/img/slider-arrow-right.svg" alt="Arrow right" />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"
+      integrity="sha512-bPs7Ae6pVvhOSiIcyUClR7/q2OAsRiovw4vAkX+zJbw3ShAeeqezq50RIIcIURq7Oa20rW2n2q+fyXBNcU9lrw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <script src="./assets/js/main.js"></script>
   </body>
 </html>
