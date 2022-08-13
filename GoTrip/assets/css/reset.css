@@ -25,8 +25,11 @@ figure,
 figcaption,
 blockquote,
 dl,
-dd {
+dd,
+input,
+button {
   margin: 0;
+  padding: 0;
 }
 
 /* Выставляем основные настройки по-умолчанию для body */
@@ -72,4 +75,20 @@ button,
 textarea,
 select {
   font: inherit;
+}
+
+input,
+button,
+textarea,
+select {
+  border: none;
+}
+
+input:focus-visible,
+input:active {
+  border: none;
+}
+
+input:focus {
+  outline: none;
 }
