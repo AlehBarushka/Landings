@@ -5,6 +5,7 @@
   --container-width: 1270px;
   --container-padding: 15px;
   --secondary: rgba(15, 31, 28, 0.5);
+  --orange: #ff7c4e;
 }
 
 body {
@@ -500,4 +501,31 @@ body {
 .subscribe-form__btn:active {
   position: relative;
   top: 1px;
+}
+
+/* Footer */
+.footer {
+  padding: 56px 0 70px;
+  color: var(--secondary);
+}
+
+.logo--footer {
+  color: var(--orange);
+}
+
+.nav__list.nav__list--footer a.active::after,
+.nav__list.nav__list--footer a:hover::after {
+  display: none;
+}
+
+.nav__list.nav__list--footer a.active,
+.nav__list.nav__list--footer a:hover {
+  color: var(--orange);
+}
+
+.nav__btn--footer {
+  color: #fff;
+  padding: 13px 44px;
+  background: linear-gradient(129.54deg, #ff7b4e 15.57%, #ff584e 95.03%), #ffffff;
+  border-radius: 100px;
 }
