@@ -1,3 +1,4 @@
+// CAROUSEL
 const owl = $('.owl-carousel');
 
 owl.owlCarousel({
@@ -17,3 +18,15 @@ $('.slider__btn--next').click(function () {
 $('.slider__btn--prev').click(function () {
   owl.trigger('prev.owl.carousel');
 });
+// CAROUSEL
+
+// NAV ICON TOGGLE
+const toggleBtn = document.querySelector('.nav__toggle');
+const menuIcon = document.querySelector('.menu-icon');
+const nav = document.querySelector('.nav');
+
+toggleBtn.onclick = function () {
+  menuIcon.classList.toggle('menu-icon-active');
+  nav.classList.toggle('nav--mobile');
+};
+// NAV ICON TOGGLE
