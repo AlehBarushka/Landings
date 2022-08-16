@@ -200,6 +200,16 @@ body {
   width: 894px;
 }
 
+.header__image::after {
+  content: '';
+  position: absolute;
+  top: -20px;
+  right: -50px;
+  width: 830px;
+  height: 622px;
+  background-image: url('./../img/header-elements.svg');
+}
+
 /* Button */
 .btn {
   display: inline-block;
