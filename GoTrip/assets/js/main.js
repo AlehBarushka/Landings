@@ -28,5 +28,6 @@ const nav = document.querySelector('.nav');
 toggleBtn.onclick = function () {
   menuIcon.classList.toggle('menu-icon-active');
   nav.classList.toggle('nav--mobile');
+  document.body.classList.toggle('no-scroll');
 };
 // NAV ICON TOGGLE
