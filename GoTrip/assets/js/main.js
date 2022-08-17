@@ -4,9 +4,10 @@ const owl = $('.owl-carousel');
 owl.owlCarousel({
   center: true,
   loop: true,
-  margin: 30,
+  margin: 20,
   startPosition: 1,
   items: 3,
+  responsive: {},
 });
 
 // Go to the next item
