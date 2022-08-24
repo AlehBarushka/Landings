@@ -6,7 +6,12 @@ owl.owlCarousel({
   loop: true,
   margin: 20,
   startPosition: 1,
-  items: 3,
+  items: 1,
+  responsive: {
+    540: {
+      items: 3,
+    },
+  },
 });
 
 // Go to the next item
