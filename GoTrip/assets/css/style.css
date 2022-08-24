@@ -604,7 +604,7 @@ body {
 /* Media */
 @media (max-width: 1269px) {
   .container-right {
-    padding: 15px 0;
+    padding: 0 15px;
   }
 }
 
@@ -845,6 +845,31 @@ body {
   .customers__img img {
     border-radius: 40px;
     max-width: 300px;
+  }
+
+  .cta {
+    padding: 50px 0;
+  }
+
+  .cta__plate {
+    min-height: 380px;
+    padding: 20px 15px;
+    border-radius: 40px;
+  }
+
+  .cta__title {
+    font-size: 35px;
+    margin-bottom: 20px;
+  }
+
+  .cta__text {
+    margin-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .btn {
+    font-size: 10px;
+    padding: 25px 35px;
   }
 }
 
