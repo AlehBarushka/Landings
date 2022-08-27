@@ -1,2 +1,5 @@
 # VSCode config
 /.vscode
+
+# Node Modules
+node_modules
