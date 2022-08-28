@@ -22,7 +22,14 @@ a {
 input,
 button {
   border: none;
+  font-size: inherit;
   font-family: inherit;
+}
+
+button,
+input[type='submit'] {
+  cursor: pointer;
+  background: none;
 }
 
 input:focus,
