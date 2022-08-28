@@ -36,6 +36,9 @@ ul,
 li {
   list-style: none; }
 
+img {
+  display: block; }
+
 html,
 body {
   font-family: 'Poppins', sans-serif;
@@ -47,6 +50,9 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px; }
+
+.none {
+  display: none; }
 
 .nav {
   padding-top: 35px;
@@ -100,7 +106,9 @@ body {
   letter-spacing: 0.8px; }
 
 .header__img img {
-  border-radius: 50px; }
+  border-radius: 40px 40px 40px 0;
+  width: 540px;
+  height: 676px; }
 
 .form {
   background: #ffffff;
@@ -142,5 +150,13 @@ body {
   transition: background-color 0.2s ease-in; }
   .btn:hover {
     background-color: #ff6a00; }
+
+.clients {
+  padding: 100px 0 90px; }
+
+.clients__row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center; }
 
 /*# sourceMappingURL=main.css.map */
