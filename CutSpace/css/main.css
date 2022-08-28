@@ -13,6 +13,10 @@ h6,
 p {
   font-size: inherit; }
 
+a {
+  color: inherit;
+  text-decoration: none; }
+
 input,
 button {
   border: none;
@@ -29,7 +33,9 @@ li {
 html,
 body {
   font-family: 'Poppins', sans-serif;
-  font-size: 16px; }
+  font-size: 16px;
+  font-weight: 400;
+  color: #323232; }
 
 .container {
   max-width: 1140px;
@@ -49,11 +55,19 @@ body {
   display: flex;
   align-items: center;
   font-weight: 700;
-  font-size: 24px;
-  color: #323232; }
+  font-size: 24px; }
   .logo img {
     margin-right: 10px;
     width: 35px;
     height: 35px; }
+
+.navigation-list ul {
+  display: flex;
+  column-gap: 42px; }
+.navigation-list a:hover {
+  color: #f78434; }
+.navigation-list a.active {
+  font-weight: 700;
+  color: #f78434; }
 
 /*# sourceMappingURL=main.css.map */

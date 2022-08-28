@@ -1,0 +1,17 @@
+.navigation-list {
+  ul {
+    display: flex;
+    column-gap: 42px;
+  }
+
+  a {
+    &:hover {
+      color: $accent-color;
+    }
+
+    &.active {
+      font-weight: 700;
+      color: $accent-color;
+    }
+  }
+}
