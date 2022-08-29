@@ -1,0 +1,22 @@
+.img-card {
+  position: relative;
+  width: 385px;
+
+  & + & {
+    margin-left: 32px;
+  }
+}
+
+.img {
+  border-radius: 20px 20px 0 20px;
+
+  &.img--rounded {
+    border-radius: 20px;
+  }
+}
+
+.img-card__info {
+  position: absolute;
+  bottom: 87px;
+  right: -46px;
+}

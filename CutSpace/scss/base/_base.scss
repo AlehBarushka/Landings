@@ -6,6 +6,7 @@ html,
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  line-height: 1.68;
   font-weight: 400;
   color: #323232;
 }
@@ -14,6 +15,12 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px;
+
+  &--fluid {
+    max-width: unset;
+    padding: 0;
+    width: 100%;
+  }
 }
 
 .none {

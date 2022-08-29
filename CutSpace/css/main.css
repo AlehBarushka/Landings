@@ -37,12 +37,14 @@ li {
   list-style: none; }
 
 img {
-  display: block; }
+  display: block;
+  max-width: 100%; }
 
 html,
 body {
   font-family: 'Poppins', sans-serif;
   font-size: 16px;
+  line-height: 1.68;
   font-weight: 400;
   color: #323232; }
 
@@ -50,6 +52,10 @@ body {
   max-width: 1140px;
   margin: 0 auto;
   padding: 0 15px; }
+  .container--fluid {
+    max-width: unset;
+    padding: 0;
+    width: 100%; }
 
 .none {
   display: none; }
@@ -158,5 +164,82 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center; }
+
+.provision {
+  padding-bottom: 80px; }
+
+.provision__row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: hidden; }
+  @media (max-width: 1450px) {
+    .provision__row {
+      justify-content: flex-end; } }
+
+.provision__img {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-start; }
+
+.provision__text {
+  flex-shrink: 0;
+  max-width: 730px;
+  padding-left: 180px;
+  padding-right: 180px; }
+  .provision__text p + p {
+    margin-top: 20px; }
+
+.provision__title {
+  margin-bottom: 20px; }
+
+.provision__btn {
+  margin-top: 40px;
+  padding: 18px 39px 16px; }
+
+.title {
+  font-weight: 700;
+  font-size: 42px;
+  line-height: 1.47;
+  letter-spacing: 0.8px; }
+
+.img-card {
+  position: relative;
+  width: 385px; }
+  .img-card + .img-card {
+    margin-left: 32px; }
+
+.img {
+  border-radius: 20px 20px 0 20px; }
+  .img.img--rounded {
+    border-radius: 20px; }
+
+.img-card__info {
+  position: absolute;
+  bottom: 87px;
+  right: -46px; }
+
+.card-info {
+  display: flex;
+  align-items: center;
+  padding: 32px 28px;
+  background: #ffffff;
+  box-shadow: 4px 20px 42px -2px rgba(0, 0, 0, 0.12);
+  border-radius: 15px; }
+
+.card-info__icon {
+  margin-right: 20px; }
+  .card-info__icon img {
+    width: 45px;
+    height: 45px; }
+
+.card-info__text {
+  max-width: 177px; }
+  .card-info__text p {
+    letter-spacing: 1.15px; }
+
+.card-info__title {
+  line-height: 1.5;
+  letter-spacing: 0.8px; }
 
 /*# sourceMappingURL=main.css.map */
